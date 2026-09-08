@@ -1,28 +1,16 @@
-# AWS Step Functions Lab
+# ⚙️ Workflows Automatizados com AWS Step Functions
 
-## Objetivo
-Consolidar o aprendizado sobre AWS Step Functions, criando workflows automatizados e documentando a prática.
+<p align="left">
+  <img src="https://img.shields.io/badge/AWS-Step_Functions-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Architecture-Serverless-FF9900?style=for-the-badge&logo=serverless&logoColor=white" />
+</p>
 
-## Benefícios do Step Functions
-- Integração rápida: Crie workflows complexos usando Workflow Studio com arrastar e soltar.
-- Automação simples: Automatize processos em mais de 220 serviços AWS.
-- Processamento sob demanda: Execute fluxos paralelos para grandes volumes de dados.
-- Visualização clara: Crie workflows flexíveis e orientados a eventos.
+## 📌 Descrição do Laboratório
 
-## Casos de uso
-- ETL: Automatize tarefas de Extração, Transformação e Carga.
-- Workloads paralelas: Processe grandes conjuntos de dados simultaneamente.
-- Microsserviços: Combine funções Lambda em aplicações responsivas.
-- Segurança e TI: Crie workflows automatizados com aprovações manuais.
+Desenvolvimento de orquestração de tarefas e fluxos de trabalho distribuídos utilizando o **AWS Step Functions**. O laboratório aborda a criação de máquinas de estado para automatizar processos operacionais sem gerenciar servidores.
 
-## Aprendizado
-Durante o laboratório, aprendi a:
-- Criar workflows visuais no Step Functions.
-- Usar estados Choice, Retry e Timeout para controlar o fluxo.
-- Integrar Lambda e S3 para processar dados de forma escalável.
-- Documentar o processo e capturar insights relevantes para futuras implementações.
+## 🛠️ Atividades Realizadas
 
-## Estrutura do repositório
-- `/workflows`: arquivos JSON/YAML das Step Functions.
-- `/images`: capturas de tela do laboratório.
-- `notas.md`: anotações complementares.
+- Construção de máquinas de estado (State Machines) em JSON/ASL (Amazon States Language).
+- Manipulação de estados de sucesso, falha e retentativas (*Retry/Catch*).
+- Integração de etapas de workflow e simulação de microsserviços encadeados.
